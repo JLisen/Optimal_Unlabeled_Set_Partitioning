@@ -16,7 +16,6 @@ File: ESP_constrained.py
 
 The file generates the optimal solution for a given set of parameters, including the optimal partition, the optimal number of partitions, and the corresponding objective value. The results presented in Table 1 of the paper are generated based on this file.
 
-All the results can be generated on the basis of this file by adding necessary loops and modifictaions. For example:
 
 ## Figure 2 
 
@@ -26,7 +25,11 @@ Simply add necessary loops to ESP_constrained.py under the entire spectrum of $\
 
 File: Thresholds.py
 
-Added necessary Use ESP_constrained.py to explore the two thresholds the entire spectrum of $\beta$ under a given $\mu$. The outputs include the optimal number of partitions and the optimal number of risk thresholds.
+Based on ESP_constrained.py, we explored two optimal thresholds the entire spectrum of $\beta$ under a given $\mu$. The outputs include the optimal number of partitions and the optimal number of risk thresholds.
+
+
+
+All the other results in Supplemental File can be generated on the basis of this file by adding necessary loops and modifictaions.
 
 
 
